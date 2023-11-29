@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+ 
+h1 {
+    text-shadow: 2px 2px 4px rgba(10, 10, 10, 0.2);
+}
+
+  header {
+    background-color: lightcyan;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  a {
+    color: maroon;
+    text-decoration: none;
+  }
+  
+  
+  .section {
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: lightgrey; /* Light gray background color */
+  }
+
+.section a {
+    color: black; /* Blue link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Change link color on hover */
+.section a:hover {
+    color: #003975; /* Darker blue on hover */
+}
+  
+.section:hover {
+    transform: scale(1.05); /* Scale up the section on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+        background-color: lightpink;
+        color: maroon;
+        transition: background-color 0.3s ease;
+}
+.section {
+    border: 2px solid  black; /* Border color and thickness */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+}
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+}
+a {
+    color: blue; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.fa-download {
+    color: orangered; /* Icon color */
+    font-size: 1.2em; /* Icon size */
+    margin-right: 5px; /* Spacing between icon and text */
+}
